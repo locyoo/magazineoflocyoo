@@ -1,14 +1,14 @@
 # ----------- CONFIGURABLE START -----------
-title:            "LiberXue|FullStack|独立开发者|jekyll blog|GitHub blog"
-description:      "Full Stack独立开发者|欢迎来到 LiberXue「角落」侃侃理想、谈谈人生、敲敲代码。"
+title:            "乐友书库"
+description:      "书中自有黄金屋，书中自有颜如玉，书中自有千钟粟"
 url:              https://ebook.locyoo.com # 域名
-signoff:          "" # Your name
-facebook_appid:   #liberxue
-google_analytics: UA-101222464-1
+signoff:          "" #ebookoflocyoo Your name
+facebook_appid:   #ebookoflocyoo
+google_analytics: UA-49627206-1
 share:            true 
 # 分页
 paginate: 15
-paginate_path: "liberxuepage:num"
+paginate_path: "ebookoflocyoo:num"
 gems: [jekyll-paginate]
 links:
   - name:         首页
