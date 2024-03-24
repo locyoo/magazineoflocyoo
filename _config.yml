@@ -8,7 +8,7 @@ google_analytics: UA-49627206-1
 share:            true 
 # 分页
 paginate: 15
-paginate_path: "ebookoflocyoo:num"
+paginate_path: "liberxuepage:num"
 gems: [jekyll-paginate]
 links:
   - name:         首页
