@@ -28,6 +28,6 @@ redirect_from:
 
 ******************
 
-邮件：locyoo#gmail.com
+邮件：locyoo#hotmail.com
 <br>
 <img src="https://img.locyoo.com/3062d3d016581.jpg" title="wechat" width="300"> 
