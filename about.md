@@ -25,9 +25,3 @@ redirect_from:
 <br>
 吾生也有涯，而知也无涯。本站收集的电子书主要包括人物传记、社科人文、经济管理、科普教育、历史小说、文学科技等大类的正式出版物，不收录一般类的网文或者爽文。对网文感兴趣者可到各大创作平台跟帖阅读。
 <br>
-
-******************
-
-邮件：locyoo#hotmail.com
-<br>
-<img src="https://img.locyoo.com/3062d3d016581.jpg" title="wechat" width="300"> 
