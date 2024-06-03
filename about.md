@@ -1,14 +1,13 @@
 ---
 layout: blog
-title: 关于乐友书库的自述
-description: "关于乐友书库的自述"
+title: 关于乐友书库
+description: "关于乐友书库"
 data: 2024-03-24 09:19:11
 tags: 
-- 关于
+
 redirect_from:
   - /about/
 ---
-
 # 关于本站的声明
 <br>
 <span style="color: red">（CT网盘访问密码：3619）</span>
