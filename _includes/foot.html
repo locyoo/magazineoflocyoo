@@ -1,0 +1,71 @@
+<footer class="footer bg-white">
+	<div class="footer-social">
+		<div class="footer-container clearfix">
+			<div class="social-list">
+	 <a class="social segmentfault" target="blank" href="https://www.jiumodiary.com/" title="访问鸠摩搜书" data-hover="鸠摩搜书">鸠摩搜书</a>
+    <a class="social github" target="blank" href="https://www.kgbook.com/" title="访问苦瓜书盘" data-hover="苦瓜书盘">苦瓜书盘</a>
+    <a class="social twitter" target="blank" href="https://kkkwu.com" title="访问咖咔屋" data-hover="咖咔屋">咖咔屋</a>
+     <a class="social stackoverflow" target="blank" href="https://pqjc.site/#/register?code=0nBAzqrH" title="访问赔钱机场" data-hover="赔钱机场">赔钱机场</a>
+          <a class="social oschina" target="blank" href="https://fengzg.net/#/register?code=1oStfhgo" title="访问风之谷机场" data-hover="风之谷机场">风之谷机场</a>
+     <a class="social rss" target="blank" href="/feed.xml"title="访问乐友书库RSS" data-hover="RSS">RSS</a>
+	</div>
+		</div>
+	</div>
+	<div class="footer-meta">
+        <div class="footer-container">
+            <div class="meta-item meta-copyright">
+                <div class="meta-copyright-info">
+                    <a href="/" class="info-logo">
+                         <img src="{{ site.url }}/style/images/logo-liberxue.png"   title="访问乐友书库" data-hover="乐友书库" alt="乐友书库" /> </a>
+                    <div class="info-text">
+                        <p>Theme is Jekyll liberxue</a></p>
+                        <p>Powered by <a href="http://ebook.locyoo.com" target="_blank">乐友书库</a></p>
+                        <p>欢迎RSS订阅: <a href="/feed.xml"  title="访问本站RSS" >乐友书库RSS</a></p>
+                        <p>总计文章：{{paginator.total_posts}}篇</p>
+                    </div>
+                </div>
+            </div>
+            <div class="meta-item meta-posts">
+                <h3 class="meta-title">置顶文章</h3>
+     <!--置顶-->
+    {% for post in site.posts limit:15 %}
+      {% if post.istop %}
+      <li><a href="{{ post.url }}" title="访问 {{ post.title }}" data-hover="{{ post.title }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+        <!--置顶-->
+            </div>
+            <div class="meta-item meta-comments">
+                <h3 class="meta-title">最新文章</h3>
+  {% for post in site.posts limit:5 %}        
+      {% if post.book %}
+ <li><a href="{{ post.url }}" title="访问 {{ post.title }}" data-hover="{{ post.title }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</div>
+		</div>
+    </div>
+</footer>
+<script src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.js"></script>
+<script src="/search/js/cb-search.js"></script>
+<script>
+$(function () {
+    setTimeout(function () {
+      $('code').removeClass('hljs');
+      $('code').removeClass('language');
+    }, 90);
+});
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
